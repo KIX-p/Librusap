@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onResponse(Call<List<Grade>> call, Response<List<Grade>> response) {
                 if(response.isSuccessful() && response.body() != null){
-                    
+
                 }
             }
 
